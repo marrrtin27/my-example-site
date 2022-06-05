@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	}
+body {
+  height: 100%;
+  background-color: #e40000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#b4171c, #e40000);
+background-repeat: no-repeat;
+}
+
+.OK2Logo {
+padding-top: 7%;
+  margin: auto;
+  width: 381px;
+
+}
+
+.center {
+  margin: auto;
+  width: 1125px;
+ padding-top: 4%;
+
+}
+
+.Nav {
+	float: inherit;
+  margin: auto;
+  width: 643.2px;
+ padding-top: 15%;
+
+}
+.hero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 80vh;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.wrapper{
+	max-width: 870px;
+}
+.image{
+	margin-bottom: 70px;
+}
+.images{
+	position: absolute;
+	z-index: -1;
+}
+.btn{
+	cursor: pointer;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 20vh;
+}
+
+@media (max-width: 360px) {
+  .image:nth-child(1){
+	  width: 400px;
+  }
+  image:nth-child(2){
+	  width: 500px;
+  }
+}
